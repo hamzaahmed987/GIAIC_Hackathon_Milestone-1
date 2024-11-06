@@ -1,0 +1,184 @@
+/* ------------ */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #ccc; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.resume-container {
+    display: flex; 
+    width: 800px; 
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 16px; 
+    box-shadow:8px 9px 9px rgba(0, 0, 0, 3); 
+
+}
+
+/* ---------left------------ */
+.left-section {
+    width: 30%; 
+    background-color: #222; 
+    padding: 20px; 
+    border-top-left-radius: 16px; 
+    border-bottom-left-radius: 16px; 
+}
+
+.right-section {
+    width: 70%; 
+    padding: 20px; 
+}
+/* profile */
+.profile-image {
+    width: 100px; 
+    height: 100px; 
+    margin: 0 auto 20px; 
+    border-radius: 50%; 
+    background: linear-gradient(145deg, #FFA500, #FFD700); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+
+.profile-image img {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%; 
+}
+
+
+/* contacts */
+.contacts {
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+    /* align-items: center; */
+    margin-top: 2vh; 
+    margin-bottom: 2vh;
+}
+
+
+.contacts a img {
+    width: 30px; 
+    height: 30px; 
+    transition: transform 0.3s ease; 
+}
+
+.contacts a img:hover {
+    transform: scale(1.1); 
+}
+
+
+/* skills */
+.skills-section {
+    /* margin-top: 2vh; */
+    margin-bottom: 20px; 
+}
+
+.skills-section h3 {
+    color: #FFA500; 
+    margin-bottom: 10px;
+}
+
+.skills-section ul {
+    list-style: none; 
+    padding-left: 0; 
+}
+
+.skills-section li {
+    color: #FFD700; 
+    padding: 3px 0; 
+}
+
+/* interest */
+
+.interest-section {
+    margin-bottom: 20px; 
+}
+
+.interest-section h3 {
+    color: #FFA500; 
+    margin-bottom: 10px; 
+}
+
+.interests {
+    list-style: none; 
+    padding-left: 0; 
+}
+
+.interests p {
+    color: #FFD700; 
+    padding: 3px 0; 
+} 
+
+
+/* -----------right----------- */ 
+
+
+/* rigt side headings */
+ .header h1 {
+    color: #FFD700; 
+    margin-bottom: 5px; 
+}
+
+.header h2 {
+    font-weight: 400; 
+    color: #f9b538; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px; 
+} 
+
+/* right side all sections styling */
+
+.all{
+    margin-bottom: 20px; 
+}
+
+.all h3{
+    color: #FFA500; 
+    margin-bottom: 10px;
+}
+
+.all p{
+    color: #fff; 
+}
+
+.btn {
+    width: 1.9vw;
+    height: 3.9vh;
+    background-color: orange;
+    color: #fff;
+    float: inline-end;
+    border-radius: 10px;
+    cursor: pointer;
+    /* padding: 1vh; */
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.4s ease;
+    font-size: 1.25rem;
+    position: relative;
+    bottom: 5.5vh;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.btn img{
+    height: 4vh;
+
+}
+
+
